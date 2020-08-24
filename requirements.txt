@@ -1,0 +1,6 @@
+django
+django-distill
+django-cachekiller
+psycopg2-binary
+pillow
+make
