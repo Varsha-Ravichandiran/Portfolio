@@ -6,7 +6,7 @@ build:
 	mkdir -p static
 	mkdir -p public
 	$(python) manage.py collectstatic --noinput
-	$(python) manage.py distill-local --force
+	$(python) manage.py distill-local public
 
 clean:
 	rm -rf public
