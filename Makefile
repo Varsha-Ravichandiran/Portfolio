@@ -7,6 +7,7 @@ build:
 	mkdir -p public
 	$(python) manage.py collectstatic --noinput
 	$(python) manage.py distill-local public --force
+	$(python) manage.py runserver
 
 clean:
 	rm -rf public
