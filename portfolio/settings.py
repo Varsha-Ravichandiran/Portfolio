@@ -25,7 +25,7 @@ SECRET_KEY = '0+r9&%gytb1nil#edi)t_1b=e_6uiqkd==o0&thie#t9q+-6p)'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['www.varsha-ravichandiran.com']
 
 
 # Application definition
